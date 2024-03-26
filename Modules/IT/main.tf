@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 
-resource "aws_s3_bucket" "ITStorage" {
+resource "aws_s3_bucket" "acmeitstorage-adris-test" {
     bucket = var.name
   
 }
