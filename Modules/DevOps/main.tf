@@ -14,7 +14,7 @@ provider "aws" {
 
 resource "aws_instance" "nginx-devops-acme-terraform" {
     ami = "ami-0c101f26f147fa7fd"
-    instance_type = "t2.micro"
+    instance_type = "t2.nano"
   
   tags = {
     Name = "TerraformTechnicalExercise"
